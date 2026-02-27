@@ -44,3 +44,39 @@ This structure ensures separation of concerns and improves scalability and maint
 ---
 
 ## Project Structure
+
+ui/
+screens/
+components/
+viewmodel/
+data/
+api/
+local/
+repository/
+navigation/
+theme/
+
+
+---
+
+## Setup Instructions
+
+1. Clone the repository
+2. Open the project in Android Studio
+3. Sync Gradle
+4. Run on emulator or physical device (min SDK 24)
+
+> Note: `local.properties` is not included in the repository. Android Studio will generate it automatically.
+
+---
+
+## API Used
+
+Rick and Morty API  
+https://rickandmortyapi.com/
+
+---
+
+## Author
+
+Developed as part of an academic exam project in Android development.
